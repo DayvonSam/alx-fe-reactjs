@@ -1,5 +1,4 @@
-import useRecipeStore from '../store/recipeStore'
-
+import useRecipeStore from './recipeStore'
 const RecipeList = () => {
   const recipes = useRecipeStore(state => state.recipes)
   return (
@@ -13,5 +12,4 @@ const RecipeList = () => {
     </div>
   )
 }
-
 export default RecipeList
