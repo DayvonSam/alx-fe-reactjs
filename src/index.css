@@ -1,0 +1,14 @@
+/* src/index.css */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+input, textarea, button {
+  display: block;
+  margin: 0.5rem 0;
+  width: 100%;
+  max-width: 400px;
+}
+button {
+  cursor: pointer;
+}
