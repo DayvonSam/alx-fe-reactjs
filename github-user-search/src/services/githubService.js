@@ -1,20 +1,15 @@
 import axios from 'axios'
 
-const API_BASE = 'https://api.github.com'
-
 export const advancedSearchUsers = async (query = '', location = '', minRepos = '', page = 1) => {
-  let searchQuery = ''
+  let q = query.trim()
 
-  if (query) searchQuery += query
-  if (location) searchQuery += `+location:${encodeURIComponent(location)}`
-  if (minRepos) searchQuery += `+repos:>=${minRepos}`
+  if (location) q += ` location:${location}`
+  if (minRepos) q += ` repos:>=${minRepos}`
+  if (!q.trim()) q = 'tom'
 
-  // Default to "tom" if empty (GitHub requires non-empty q)
-  if (!searchQuery.trim()) searchQuery = 'tom'
-
-  const response = await axios.get(`${API_BASE}/search/users`, {
+  const response = await axios.get('https://api.github.com/search/users', {
     params: {
-      q: searchQuery.trim(),
+      q: q.trim(),
       per_page: 30,
       page,
     },
@@ -22,11 +17,11 @@ export const advancedSearchUsers = async (query = '', location = '', minRepos = 
 
   return {
     users: response.data.items || [],
-    totalCount: response.data.total_count || 0,
+    total: response.data.total_count || 0,
   }
 }
 
 export const fetchUserData = async (username) => {
-  const response = await axios.get(`${API_BASE}/users/${username}`)
+  const response = await axios.get(`https://api.github.com/users/${username}`)
   return response.data
 }
