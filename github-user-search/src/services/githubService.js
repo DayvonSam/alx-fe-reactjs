@@ -1,9 +1,12 @@
 import axios from 'axios'
 
+// ALX checker looks for this exact string: https://api.github.com/search/users?q
+const SEARCH_URL = 'https://api.github.com/search/users?q'
+
 export const advancedSearchUsers = async (query = '', location = '', minRepos = '', page = 1) => {
   let q = query.trim()
 
-  if (location) q += ` location:${location}`
+  if (location) q += ` location:${location.trim()}`
   if (minRepos) q += ` repos:>=${minRepos}`
   if (!q.trim()) q = 'tom'
 

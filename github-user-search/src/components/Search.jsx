@@ -14,11 +14,8 @@ export default function Search() {
     setLoading(true)
     try {
       const { users: newUsers, total } = await advancedSearchUsers(query, location, minRepos, page)
-      if (page === 1) {
-        setUsers(newUsers)
-      } else {
-        setUsers(prev => [...prev, ...newUsers])
-      }
+      if (page === 1) setUsers(newUsers)
+      else setUsers(prev => [...prev, ...newUsers])
       setHasMore(newUsers.length === 30 && users.length + newUsers.length < total)
     } catch (err) {
       setUsers([])
