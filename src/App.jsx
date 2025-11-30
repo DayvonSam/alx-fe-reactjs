@@ -1,7 +1,7 @@
-import UserProfile from './components/UserProfile'
+import UserProfile from './components/UserProfile';
 
 function App() {
-  return <UserProfile />
+  return <UserProfile />;
 }
 
-export default App
+export default App;
