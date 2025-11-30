@@ -1,5 +1,7 @@
-import Search from './components/Search'
+import UserProfile from './components/UserProfile'
 
-export default function App() {
-  return <Search />
+function App() {
+  return <UserProfile />
 }
+
+export default App
