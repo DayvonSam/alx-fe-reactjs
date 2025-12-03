@@ -1,0 +1,8 @@
+[
+  {"id":1,"title":"Spaghetti Carbonara","summary":"Classic Italian pasta with eggs, cheese, pancetta, and black pepper.","image":"https://images.unsplash.com/photo-1621996346565-e3dbc44ae0d2?w=400"},
+  {"id":2,"title":"Chicken Tikka Masala","summary":"Tender chicken in a rich and creamy tomato-based curry sauce.","image":"https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400"},
+  {"id":3,"title":"Margherita Pizza","summary":"Simple and delicious pizza with tomato, mozzarella, and fresh basil.","image":"https://images.unsplash.com/photo-1604068549290-dea0e4a1479b?w=400"},
+  {"id":4,"title":"Beef Tacos","summary":"Crispy tacos filled with seasoned beef, lettuce, cheese, and salsa.","image":"https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=400"},
+  {"id":5,"title":"Chocolate Brownie","summary":"Rich, fudgy brownie with a crackly top — pure indulgence!","image":"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400"},
+  {"id":6,"title":"Caesar Salad","summary":"Fresh romaine lettuce, parmesan, croutons, and creamy Caesar dressing.","image":"https://images.unsplash.com/photo-1551248429-40975aa4de74?w=400"}
+]
