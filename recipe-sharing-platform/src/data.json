@@ -1,8 +1,50 @@
 [
-  {"id":1,"title":"Spaghetti Carbonara","summary":"Classic Italian pasta with eggs, cheese, pancetta, and black pepper.","image":"https://images.unsplash.com/photo-1621996346565-e3dbc44ae0d2?w=400"},
-  {"id":2,"title":"Chicken Tikka Masala","summary":"Tender chicken in a rich and creamy tomato-based curry sauce.","image":"https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400"},
-  {"id":3,"title":"Margherita Pizza","summary":"Simple and delicious pizza with tomato, mozzarella, and fresh basil.","image":"https://images.unsplash.com/photo-1604068549290-dea0e4a1479b?w=400"},
-  {"id":4,"title":"Beef Tacos","summary":"Crispy tacos filled with seasoned beef, lettuce, cheese, and salsa.","image":"https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=400"},
-  {"id":5,"title":"Chocolate Brownie","summary":"Rich, fudgy brownie with a crackly top — pure indulgence!","image":"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400"},
-  {"id":6,"title":"Caesar Salad","summary":"Fresh romaine lettuce, parmesan, croutons, and creamy Caesar dressing.","image":"https://images.unsplash.com/photo-1551248429-40975aa4de74?w=400"}
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "summary": "Classic Italian pasta with eggs, cheese, pancetta, and black pepper.",
+    "image": "https://images.unsplash.com/photo-1621996346565-e3dbc44ae0d2?w=800",
+    "ingredients": ["200g spaghetti", "100g pancetta", "2 large eggs", "50g pecorino cheese", "Black pepper", "Salt"],
+    "instructions": "1. Boil pasta in salted water.\n2. Fry pancetta until crispy.\n3. Beat eggs with cheese and pepper.\n4. Drain pasta, mix with pancetta off heat.\n5. Add egg mixture quickly and toss.\n6. Serve immediately with extra cheese."
+  },
+  {
+    "id": 2,
+    "title": "Chicken Tikka Masala",
+    "summary": "Tender chicken in a rich and creamy tomato-based curry sauce.",
+    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800",
+    "ingredients": ["500g chicken", "200ml yogurt", "2 tbsp tikka spice", "1 onion", "400g tomato puree", "200ml cream", "Garlic & ginger"],
+    "instructions": "1. Marinate chicken in yogurt + spices for 2 hours.\n2. Grill or bake chicken until charred.\n3. Fry onion, garlic, ginger.\n4. Add tomato puree and simmer.\n5. Add cream and cooked chicken.\n6. Garnish with cilantro."
+  },
+  {
+    "id": 3,
+    "title": "Margherita Pizza",
+    "summary": "Simple and delicious pizza with tomato, mozzarella, and fresh basil.",
+    "image": "https://images.unsplash.com/photo-1604068549290-dea0e4a1479b?w=800",
+    "ingredients": ["Pizza dough", "200g mozzarella", "Tomato sauce", "Fresh basil", "Olive oil", "Salt"],
+    "instructions": "1. Preheat oven to 250°C.\n2. Roll out dough.\n3. Spread tomato sauce.\n4. Add torn mozzarella.\n5. Bake 8-10 minutes.\n6. Top with fresh basil and olive oil."
+  },
+  {
+    "id": 4,
+    "title": "Beef Tacos",
+    "summary": "Crispy tacos filled with seasoned beef, lettuce, cheese, and salsa.",
+    "image": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=800",
+    "ingredients": ["500g ground beef", "Taco seasoning", "Taco shells", "Lettuce", "Cheese", "Tomatoes", "Sour cream"],
+    "instructions": "1. Brown beef in pan.\n2. Add seasoning + water, simmer.\n3. Warm taco shells.\n4. Fill with beef and toppings.\n5. Serve immediately."
+  },
+  {
+    "id": 5,
+    "title": "Chocolate Brownie",
+    "summary": "Rich, fudgy brownie with a crackly top — pure indulgence!",
+    "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800",
+    "ingredients": ["200g dark chocolate", "180g butter", "250g sugar", "3 eggs", "100g flour", "30g cocoa powder"],
+    "instructions": "1. Melt chocolate + butter.\n2. Whisk in sugar and eggs.\n3. Fold in flour and cocoa.\n4. Bake at 180°C for 25-30 min.\n5. Cool completely before cutting."
+  },
+  {
+    "id": 6,
+    "title": "Caesar Salad",
+    "summary": "Fresh romaine lettuce, parmesan, croutons, and creamy Caesar dressing.",
+    "image": "https://images.unsplash.com/photo-1551248429-40975aa4de74?w=800",
+    "ingredients": ["Romaine lettuce", "Parmesan", "Croutons", "Caesar dressing", "Lemon", "Anchovies (optional)"],
+    "instructions": "1. Wash and chop lettuce.\n2. Make dressing with egg, oil, lemon, anchovies.\n3. Toss lettuce with dressing.\n4. Add parmesan and croutons."
+  }
 ]
